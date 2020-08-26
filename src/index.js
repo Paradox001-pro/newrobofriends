@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-// import './components/Cardlist';
+import 'tachyons';
 import App from './container/App'
 // import Footer from './Components/SearchBox/footer'
 // import Cardist from './CardList';

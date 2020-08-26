@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from 'react';
 // import SearchBox from './SearchBox';
 import './App.css';
-import CardList from './Components/CardList/CardList'
+import CardList from './components/CardList/Cardlist'
 import { robots } from './robots';
 
 class App extends Component {

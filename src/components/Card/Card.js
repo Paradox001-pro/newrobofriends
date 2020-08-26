@@ -1,4 +1,6 @@
 import React from 'react';
+import './Card.css'
+
 
 
 const Card = (props) => {
@@ -8,7 +10,7 @@ const Card = (props) => {
                 <img src={`http://robohash.org/set_set5/${props.name}?size=200x200`} alt='robocope' />
             </div>
             <div>
-                <p>{ props.name}</p>
+                <h4>{ props.name}</h4>
                 <p>{ props.email}</p>
             </div>
         </div>

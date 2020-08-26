@@ -1,0 +1,51 @@
+.card{
+    /* display: flex; */
+    /* width: 25%; */
+    
+    /* text-align: center; */
+    margin: 5px;
+    height: auto;
+    background: peachpuff;
+    border-radius: 20px;
+    /* animation: robot-jump 2s infinite linear; */
+
+}
+
+
+.robocope img {
+    width: 90%;
+    /* animation: robot-jump 2s 1s infinite linear; */
+
+}
+.robocope img:hover{
+    /* animation: robot-jump 2s  infinite ease-in-out ; */
+    animation-name: robot-jump;
+    animation-duration: 1s;
+    animation-iteration-count: 4;
+    animation-direction: alternate;
+    animation-timing-function: ease-in
+
+}
+.card-details h4{
+    color: rgba(148, 5, 5, 0.596);
+    font-weight: bolder;
+    
+}
+.card-details p{
+    color: rgb(53, 2, 2);
+    font-weight: bold;
+    /* font-size: 70%; */
+}
+
+@keyframes robot-jump {
+    from {
+      transform: scale(1);
+      /* margin-top: -5px; */
+      /* width: 90%; */
+    }
+    to {
+      transform: scale(0.9);
+      /* margin-top: 40px; */
+      /* width: 80%; */
+    }
+  }
